@@ -10,4 +10,5 @@ fun main(args: Array<String>): Unit = EngineMain.main(args)
 fun Application.module() {
     configureRouting()
     configureSerialization()
+    configureSockets()
 }
